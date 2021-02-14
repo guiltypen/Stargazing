@@ -63,22 +63,22 @@ function print(percent) {
 if (percent<=25){
     console.log(percent)
     let element = document.getElementById("state");
-    element.innerHTML = "the visiblty is high for stargazing.The moon is in shade";
+    element.innerHTML = "the visibility is high for stargazing.The moon is in shade";
     // document.write("the visiblty is high for stargazing.The moon is in shade");
 }else if (percent<=50){
     console.log(percent)
     let element = document.getElementById("state");
-    element.innerHTML = "the visiblty is good for stargazing.The moon is mostly in shade";
+    element.innerHTML = "the visibility is good for stargazing.The moon is mostly in shade";
     // document.write("the visiblty is good for stargazing.The moon is mostly in shade");
 }else if (percent<=75){
     console.log(percent)
     let element = document.getElementById("state");
-    element.innerHTML = "the stars visiblty is bad .The moon is mostly bright";
+    element.innerHTML = "the stars visibility is bad .The moon is mostly bright";
     // document.write("the stars visiblty is bad .The moon is mostly bright ");
 }else if (percent>75){
     console.log(percent)
     let element = document.getElementById("state");
-    element.innerHTML = "the stars visiblty is terrible but you can still enjoy the moon";
+    element.innerHTML = "the stars visibility is terrible but you can still enjoy the moon";
     // document.write("the stars visiblty is terrible but you can enjoy the moon");
 }
 }
