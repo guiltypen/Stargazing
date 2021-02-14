@@ -1,0 +1,238 @@
+
+    *{
+        box-sizing: border-box;
+      }
+    body{
+        margin: 0;
+        background-color: black;
+        background-image: url('img/moonztallside.jpg ');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+    }  
+    
+    
+    .row{
+    
+        position: relative;
+        top: 10%;
+        left: 35%;
+        text-align: center;
+        color: white;
+       
+        width: 50%;
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .column {
+        
+        flex:50%;
+        position: relative;
+        /* width: 40%; */
+        padding: 50;
+        /* left: 50%; */
+      }
+
+      .column1 {
+        
+        flex:50%;
+        position: relative;
+        /* width: 40%; */
+        padding: 100;
+        /* left: 50%; */
+      }
+
+  .img{
+      transform: rotate(-90deg);
+    position: absolute;
+    width: 70%;
+    top: -380;
+    right: 250;
+  }
+  #about {
+      background-color: white transparent ;
+      font-size: 18;
+    color: white;
+    width:40%;
+    position: relative;
+    left: 85%;
+    top:-90%;
+    text-align:center;
+    
+    
+  }
+  .main {
+font-size: 60px;
+    text-align: center;
+    color: white;
+    position: relative;
+
+    
+    
+    /* transform: translate(-20%, -100%); */
+}
+#state {
+    position: relative;
+    top: 0;
+    left: 0;
+    /* transform: translate(-20%, -50%); */
+    font-size: 40px;
+    text-align: center;
+
+    color: white;
+
+    /* transform: translate(30%, -2000%); */
+}
+#state2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    /* transform: translate(-20%, -50%); */
+    font-size: 25px;
+    text-align: center;
+
+    color: white;
+
+    /* transform: translate(30%, -2000%); */
+}
+
+.wrapper{
+    position: relative;
+    top: 0%;
+    left: 0%;
+
+    text-align: center;
+   
+}
+#dateInput{
+    font-size: 30;
+    position: relative;
+    top: 100;
+    right:100;
+}
+.button {
+    position: relative;
+    top: 150;
+    right:100;
+    font-size: 30;
+}
+
+@media only screen and (max-width:1400px){
+    body{
+        margin: 0;
+        background-color: black;
+        background-image: url('img/moonztall.jpg ');
+        background-repeat: no-repeat;
+        background-attachment:scroll;  
+        background-size:100%;
+    }  
+    
+    
+    .row{
+    
+        position: relative;
+        top: 50%;
+        left: 0%;
+      
+        text-align: center;
+        color: white;
+       
+        width: 100%;
+        /* padding: 15px; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .column {
+        flex-direction: column;
+        position: relative;
+        /* width: 40%; */
+        padding: 50;
+        /* left: 50%; */
+      }
+
+      .column1 {
+        
+        flex-direction: column;
+        position: relative;
+        /* width: 40%; */
+        padding: 100;
+        /* left: 50%; */
+      }
+
+  .img{
+      transform: rotate(-90deg);
+    position: absolute;
+    width: 70%;
+    top: -380;
+    right: 250;
+  }
+  #about {
+      
+      font-size: 20;
+    color: white;
+    width: 50%;
+    position: relative;
+    left: 30%;
+    top: 0;
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+    
+  }
+  .main {
+font-size: 60px;
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 0;
+
+    
+    
+
+}
+#state {
+    position: relative;
+  
+    font-size: 40px;
+    text-align: center;
+
+    color: white;
+
+}
+#state2 {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    font-size: 25px;
+    text-align: center;
+
+    color: white;
+
+}
+
+.wrapper{
+    position: relative;
+    top: 0%;
+    left: 0%;
+
+    text-align: center;
+   
+}
+#dateInput{
+    font-size: 30;
+    position: relative;
+    top: 0;
+    right:0;
+}
+.button {
+    position: relative;
+    top: 50;
+    right:0;
+    font-size: 30;
+}}
